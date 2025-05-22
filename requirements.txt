@@ -1,89 +1,29 @@
-altair==5.5.0
-asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1733250440834/work
-attrs==25.3.0
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-blinker==1.9.0
-Brotli @ file:///croot/brotli-split_1736182456865/work
-cachetools==5.5.2
-certifi @ file:///croot/certifi_1745939216646/work/certifi
-charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
-click==8.1.8
-comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1733502965406/work
-debugpy @ file:///croot/debugpy_1736267418885/work
-decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1740384970518/work
-exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1733208806608/work
-executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1745502089858/work
-filelock @ file:///croot/filelock_1744281381737/work
-fsspec==2025.5.0
-gitdb==4.0.12
-GitPython==3.1.44
-gmpy2 @ file:///croot/gmpy2_1738085463648/work
-huggingface-hub==0.31.4
-idna==3.10
-importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1737420181517/work
-ipykernel @ file:///home/conda/feedstock_root/build_artifacts/ipykernel_1719845459717/work
-ipython @ file:///croot/ipython_1694181358621/work
-ipython_pygments_lexers @ file:///home/conda/feedstock_root/build_artifacts/ipython_pygments_lexers_1737123620466/work
-jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1733300866624/work
-Jinja2 @ file:///croot/jinja2_1741710844255/work
-jsonschema==4.23.0
-jsonschema-specifications==2025.4.1
-jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1733440914442/work
-jupyter_core @ file:///home/conda/feedstock_root/build_artifacts/jupyter_core_1727163409502/work
-MarkupSafe @ file:///croot/markupsafe_1738584038848/work
-matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work
-mkl-service==2.4.0
-mkl_fft @ file:///io/mkl313/mkl_fft_1730824109137/work
-mkl_random @ file:///io/mkl313/mkl_random_1730823916628/work
-mpmath @ file:///croot/mpmath_1690848262763/work
-narwhals==1.40.0
-nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
-networkx @ file:///croot/networkx_1717597493534/work
-numpy @ file:///croot/numpy_and_numpy_base_1725470312869/work/dist/numpy-2.0.1-cp39-cp39-linux_x86_64.whl#sha256=d86a49760b169e0c4fb8c00d248077a0474f640071b7ef584afd5ad4f03b9428
-packaging @ file:///croot/packaging_1734472117206/work
-pandas==2.2.3
-parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1733271261340/work
-pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1733301927746/work
-pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1733327343728/work
-pillow @ file:///croot/pillow_1744613067434/work
-platformdirs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_platformdirs_1742485085/work
-prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1744724089886/work
-protobuf==6.31.0
-psutil @ file:///croot/psutil_1736367091698/work
-ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
-pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
-pyarrow==20.0.0
-pydeck==0.9.1
-Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1736243443484/work
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
-pytz==2025.2
-PyYAML @ file:///croot/pyyaml_1728657952215/work
-pyzmq @ file:///croot/pyzmq_1734687138743/work
-referencing==0.36.2
-regex==2024.11.6
-requests @ file:///croot/requests_1730999120400/work
-rpds-py==0.25.1
-safetensors==0.5.3
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
-smmap==5.0.2
-stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
+# Core application framework
 streamlit==1.45.1
-sympy @ file:///croot/sympy_1738108488918/work
-tenacity==9.1.2
-tokenizers==0.21.1
-toml==0.10.2
-torch==2.5.1
-torchaudio==2.5.1
-torchvision==0.20.1
-tornado @ file:///croot/tornado_1733960490606/work
-tqdm==4.67.1
-traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work
-transformers==4.52.2
-triton==3.1.0
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1744302253/work
-tzdata==2025.2
-urllib3 @ file:///croot/urllib3_1737133630106/work
-watchdog==6.0.0
-wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1733231326287/work
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
+
+# Machine Learning - PyTorch (CPU version) and Transformers
+# Using a recent stable PyTorch version for CPU.
+# If you have a specific reason for 2.7.0 and can ensure a CPU install, adjust.
+# For Streamlit Cloud, explicitly asking for CPU is best for PyTorch if it defaults to CUDA.
+# However, often just "torch" works and pip on a CPU machine picks the CPU version.
+# Let's try a version known for good CPU wheel availability on Linux for Py3.9.
+torch==2.3.1
+transformers==4.41.2 # A recent stable version
+sentencepiece # For tokenization, hopefully a wheel exists for Python 3.9
+accelerate # Often helpful for Transformers, even on CPU
+
+# Mamba specific packages
+mamba-ssm # Let pip try to find the latest compatible version for Py3.9/Torch2.3.1
+causal-conv1d>=1.1.0 # Dependency for mamba-ssm
+
+# For Google Drive downloads and web requests
+requests
+charset-normalizer # To resolve the requests warning
+
+# Common and important dependencies (sometimes good to pin)
+protobuf~=3.20 # protobuf 3.20.x is widely compatible
+# altair==5.5.0 # Streamlit uses this, pip should get it
+# numpy # torch/transformers will pull this
+# pandas # streamlit will pull this
+# huggingface-hub # transformers will pull this
+# safetensors # transformers will pull this
