@@ -1,0 +1,64 @@
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python Build and Distribution Artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Python Virtual Environments
+# Add your specific virtual environment folder names if they are created within the project
+# For example, if you created a venv named 'venv' in the project root:
+# venv/
+# env/
+# If your conda env 'mamba_poet' was somehow created inside this project directory (not standard):
+# mamba_poet/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE and Editor Specific Files
+.vscode/
+.idea/
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
+
+# Secrets and Sensitive Files
+# Files containing sensitive information like API keys or local environment settings
+*.env
+.env
+.env.*
+# Your file '.ennnnnv' looks like a typo for .env, so let's ignore it and patterns
+.ennnnnv
+*.pem
+credentials*.json
+api_key.txt
+
+# Datasets
+# Ignore large raw dataset files. Keep small sample datasets if they are useful for the repo.
+# poetry_dataset_batch.jsonl
+# If you have other large dataset files, add them here:
+# e.g., other_large_dataset.csv
+
+# Original Model Checkpoints and Training Output Directories
+# Ignore the entire original checkpoint directory from training runs
+checkpoint/
+# Ignore other typical training output/log directories
+mamba_poet_finetuned_*/
+n_mamba_poet_finetuned_script_kst/
+mamba_poet_finetuned_large_dataset_kst/
+*/logs/ # Excludes all TensorBoard log subdirectories or similar
+
+# Downloaded Model Weights for Inference
+# The model_for_inference/ directory itself (containing small JSON configs) WILL be tracked.
+# Only ignore the large model.safetensors file that gets downloaded into it at runtime.
+model_for_inference/model.safetensors
+
+# If you download any other large files into model_for_inference/ at runtime, list them too.
+# e.g., model_for_inference/another_large_file.bin
